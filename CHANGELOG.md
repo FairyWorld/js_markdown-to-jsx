@@ -1,5 +1,11 @@
 # markdown-to-jsx
 
+## 9.6.1
+
+### Patch Changes
+
+- 2432f0b: Fix: preserve camelCase attribute casing for all HTML/JSX tags, not just PascalCase components. This restores expected behavior where attributes like `userId` and `firstName` are no longer lowercased to `userid` and `firstname`.
+
 ## 9.6.0
 
 ### Minor Changes
